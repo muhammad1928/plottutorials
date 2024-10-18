@@ -21,4 +21,6 @@ plt1 = plt.scatter(X_data, Y_data, c="blue", marker="*", s=150)
 plt.show()
 
 
-
+# generating 1000 ages with a mean of 20, and 1.5 deviation (sapma)
+ages = np.random.normal(20, 1.5, 1000)
+print(round(ages,1))
