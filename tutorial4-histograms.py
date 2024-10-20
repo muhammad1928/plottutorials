@@ -10,6 +10,6 @@ print(ages)
 # bins=20 =  how many columns to show in this case 20
 # bins=[ages.min(), 18, 21, ages.max()]  you can also specify the bins urself
 # set cumulative to True to get an icreasing graph
-
+# plt.hist(ages, bins=20)
 plt.hist(ages, bins=[ages.min(), 18, 21, ages.max()], cumulative=True)
 plt.show()
