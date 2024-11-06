@@ -18,3 +18,4 @@ weight = [80,84, 89,90,91,94,95,91,108,109,106,108,101,98, 99,105]
 # 
 plt.plot(years, weight, color="r", lw=3, linestyle="--")
 plt.show()
+
